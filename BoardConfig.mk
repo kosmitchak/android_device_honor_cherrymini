@@ -133,6 +133,10 @@ BOARD_RIL_CLASS := ../../../device/honor/cherrymini/ril
 PROTOBUF_SUPPORTED := true
 TARGET_RIL_VARIANT := proprietary
 
+# Optimizations 
+O3_OPTS := true
+GRAPHITE_OPTS := true
+
 # Enable WEBGL
 ENABLE_WEBGL := true
 
