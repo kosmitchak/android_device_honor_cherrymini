@@ -40,6 +40,8 @@ BOARD_VENDOR_PLATFORM := hi6210sft
 
 ENABLE_CPUSETS := true
 
+WITH_DEXPREOPT := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := hi6210sft,cherrymini
 
