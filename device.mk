@@ -111,6 +111,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Gello
 
+# Graphics
+PRODUCT_PACKAGES += \
+    hwcomposer.hi6210sft
+
 # KEYPAD
 PRODUCT_PACKAGES += \
     usbaudio.kl
