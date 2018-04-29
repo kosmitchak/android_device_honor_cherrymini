@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := device/huawei/alice
+LOCAL_PATH := device/honor/cherrymini
 
 # Architecture
 TARGET_ARCH := arm64
@@ -41,7 +41,7 @@ BOARD_VENDOR_PLATFORM := hi6210sft
 ENABLE_CPUSETS := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := hi6210sft,alice
+TARGET_OTA_ASSERT_DEVICE := hi6210sft,cherrymini
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
@@ -101,8 +101,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_SOURCE := kernel/huawei/alice
-TARGET_KERNEL_CONFIG := alice_defconfig
+TARGET_KERNEL_SOURCE := kernel/honor/cherrymini
+TARGET_KERNEL_CONFIG := cherrymini_defconfig
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
@@ -127,7 +127,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_hi6210sft
 
 # RIL
 COMMON_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
-BOARD_RIL_CLASS := ../../../device/huawei/alice/ril
+BOARD_RIL_CLASS := ../../../device/honor/cherrymini/ril
 PROTOBUF_SUPPORTED := true
 TARGET_RIL_VARIANT := proprietary
 
@@ -146,4 +146,4 @@ BOARD_HOSTAPD_DRIVER 		:= NL80211
 CONFIG_DRIVER_NL80211		:= y
 
 # inherit from the proprietary version
--include vendor/huawei/alice/BoardConfigVendor.mk
+-include vendor/honor/cherrymini/BoardConfigVendor.mk

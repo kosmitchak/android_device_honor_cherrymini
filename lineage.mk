@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/huawei/alice/full_alice.mk)
+$(call inherit-product, device/honor/cherrymini/full_cherrymini.mk)
 
-PRODUCT_NAME := lineage_alice
-PRODUCT_DEVICE := alice
+PRODUCT_NAME := lineage_cherrymini
+PRODUCT_DEVICE := cherrymini

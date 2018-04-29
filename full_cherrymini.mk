@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/locales_full.mk)
 
 # Inherit from kiwi device
-$(call inherit-product, device/huawei/alice/device.mk)
+$(call inherit-product, device/honor/cherrymini/device.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -32,8 +32,8 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := full_alice
-PRODUCT_DEVICE := alice
+PRODUCT_NAME := full_cherrymini
+PRODUCT_DEVICE := cherrymini
 PRODUCT_BRAND := Huawei
-PRODUCT_MANUFACTURER := HUAWEI
-PRODUCT_MODEL := HUAWEI-P8Lite
+PRODUCT_MANUFACTURER := Honor
+PRODUCT_MODEL := Honor-4C

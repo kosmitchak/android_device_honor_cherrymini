@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), alice)
+ifeq ($(TARGET_DEVICE), cherrymini)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
