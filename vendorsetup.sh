@@ -1,1 +1,1 @@
-add_lunch_combo aosp_cherrymini-userdebug
+add_lunch_combo slim_cherrymini-userdebug

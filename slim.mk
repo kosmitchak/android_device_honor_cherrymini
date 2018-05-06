@@ -14,5 +14,5 @@
 
 $(call inherit-product, device/honor/cherrymini/full_cherrymini.mk)
 
-PRODUCT_NAME := aosp_cherrymini
+PRODUCT_NAME := slim_cherrymini
 PRODUCT_DEVICE := cherrymini
