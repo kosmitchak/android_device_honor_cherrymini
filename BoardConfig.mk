@@ -69,11 +69,6 @@ BOARD_CHARGER_DISABLE_INIT_BLANK := true
 BOARD_RECOVERY_NEEDS_FBIOPAN_DISPLAY := true
 BACKLIGHT_PATH := /sys/class/leds/lcd_backlight0/brightness
 
-# CMHW
-BOARD_HARDWARE_CLASS := \
-    $(LOCAL_PATH)/cmhw \
-    hardware/cyanogen/cmhw
-
 # Display
 USE_OPENGL_RENDERER := true
 TARGET_HARDWARE_3D := true

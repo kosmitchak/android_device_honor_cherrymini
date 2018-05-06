@@ -112,10 +112,6 @@ PRODUCT_PACKAGES += \
     tinymix \
     tinypcminfo
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # Graphics
 PRODUCT_PACKAGES += \
     hwcomposer.hi6210sft
